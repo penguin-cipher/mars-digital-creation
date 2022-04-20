@@ -1,0 +1,19 @@
+.client {
+    padding: 150px 0;
+}
+
+
+.client-list ul {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+    flex-direction: row;
+    text-transform: uppercase;
+    color:  var(--fade-color);
+    justify-content: space-around;
+}
+
+

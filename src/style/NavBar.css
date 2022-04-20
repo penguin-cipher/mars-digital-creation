@@ -1,0 +1,19 @@
+@media screen {
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-link {
+    display:none;
+}
+
+
+}
+
