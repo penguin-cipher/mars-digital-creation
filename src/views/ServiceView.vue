@@ -72,10 +72,9 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {};
 </script>
 <style>
-@import "../style/ServiceCard.css";
+@import "../style/Service.css";
 </style>

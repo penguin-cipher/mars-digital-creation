@@ -21,26 +21,32 @@
       <div class="service">
         <h3>service</h3>
         <h1>check out our service offered</h1>
-        <ServiceCard />
+        <Service />
       </div>
       <div class="project">
         <h3>project</h3>
         <h1>Enjoy the show</h1>
         <ProjectCard />
       </div>
+      <div>
+        <Done />
+      </div>
     </div>
   </div>
 </template>
 <script>
 import Nav from "../components/NavBar.vue";
-import ServiceCard from "./ServiceView.vue";
+import Done from "../components/projectsDone.vue";
+import Service from "../views/ServiceView.vue";
 import Client from "../components/ClientComponent.vue";
 import ProjectCard from "../components/ProjectCard.vue";
+
 export default {
   components: {
     Nav,
+    Done,
     Client,
-    ServiceCard,
+    Service,
     ProjectCard,
   },
 };

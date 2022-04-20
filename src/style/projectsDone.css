@@ -1,0 +1,65 @@
+.done-p {
+    display:flex;
+    padding-bottom:100px;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.dp-txt {
+    flex:60%
+}
+
+.dp-work {
+    flex:40%
+}
+
+.dp-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.dp-txt h3 {
+    width: 95%;
+    font-size: 1.2rem;
+
+}
+
+.dp-btn {
+
+    margin-top: 30px ;
+
+}
+
+.btn-pd {
+    border: none;
+    outline: none;
+    font-size: .9rem;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.dp-work, .p-a, .p-b {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p-a, .p-b {
+    height:50%;
+}
+
+.p-a {
+
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+
+
+.dp-work span {
+    font-size: 2.6rem;
+    font-weight:bold; 
+}
