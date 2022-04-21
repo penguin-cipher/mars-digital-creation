@@ -31,13 +31,17 @@
       <div>
         <Done />
       </div>
+      <div>
+        <Contact />
+      </div>
     </div>
   </div>
 </template>
 <script>
 import Nav from "../components/NavBar.vue";
-import Done from "../components/projectsDone.vue";
 import Service from "../views/ServiceView.vue";
+import Contact from "../views/ContactView.vue";
+import Done from "../components/projectsDone.vue";
 import Client from "../components/ClientComponent.vue";
 import ProjectCard from "../components/ProjectCard.vue";
 
@@ -46,6 +50,7 @@ export default {
     Nav,
     Done,
     Client,
+    Contact,
     Service,
     ProjectCard,
   },

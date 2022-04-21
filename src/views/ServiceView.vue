@@ -76,5 +76,5 @@
 export default {};
 </script>
 <style>
-@import "../style/Service.css";
+@import "../style/ServiceView.css";
 </style>

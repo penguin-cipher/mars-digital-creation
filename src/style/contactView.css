@@ -1,0 +1,329 @@
+@media screen {
+
+    .contact-c {
+        display: flex;
+        margin-top: 50px;
+        padding: 10px 20px;
+        text-align: center;
+        
+        flex-direction: column;
+        background-color:var(--primary-color);
+    }
+    
+    .container-a {
+        display:flex;
+        padding: 10px 0;
+        flex-direction: column;
+    
+    }   
+    
+    .container-a h2{
+        font-size: 1.5rem;
+    }
+    
+    .btn-cc {
+        gap:2px;
+        display:flex;
+        margin: 20px 0;
+        font-size: .8rem;
+        padding: 5px 12px;
+        align-items: center;
+        flex-direction: row;
+        justify-content:center;
+        color: var(--bg-color);
+       
+    
+    }
+    
+    .btn-cc:hover {
+
+        border-radius: 7px;
+        color: var(--primary-color);
+        background-color:var(--bg-color);
+    }
+    
+    
+    .c-icon {
+        color: var(--bg-color);
+        width:24px;
+        height:24px;
+    }
+    
+    .arrow {
+        color: var(--footer-color);
+        width:20px;
+        height:20px;
+    }
+
+    
+    .line {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid var(--bg-color);
+        margin: .6em 0;
+        padding: 0;
+    }
+
+    
+    .container-b {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+    .c-span {
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        margin:20px 0;
+        gap: 10px;
+    }
+    
+    .c-span span {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .c-a h2 , .c-b h2 {
+        font-size: 1.5rem;
+    }
+    
+    .footer {
+        width:100%;
+        display: flex;
+        padding: 10px 0;
+        align-items: center;
+        color: var(--bg-color);
+        justify-content: center;
+    
+    }
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .contact-c {
+        padding: 50px 50px 0 50px;
+
+    }
+    
+    .container-a {
+        display:flex;
+        padding: 10px 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+       
+    
+    }   
+
+    .btn-cc {
+        padding: 8px 12px;
+        font-size: 1rem;       
+    
+    }
+    
+
+    .container-b {
+        display: flex; 
+        flex-direction: row;
+        padding: 30px 0;
+        justify-content: space-between;
+    
+    }
+
+       
+    .c-icon {
+        width:26px;
+        height:26px;
+    }
+    
+    .arrow {
+        width:24px;
+        height:24px;
+    }
+
+    .c-span {
+        gap: 20px;
+    }
+    
+
+    .container-a h2{
+        font-size: 1.8rem;
+    }
+
+    .c-span span {
+        font-size:1.2rem;
+    }
+
+    .container-b h2 {
+        font-size: 1.3rem;
+    }
+
+}
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .contact-c {
+        padding: 80px 80px 0 80px;
+
+    }
+
+    .btn-cc {
+        gap:3px;
+        padding: 8px 12px;
+        font-size: 1.2rem;       
+    
+    }
+    
+    .container-a h2{
+        font-size: 2.4rem;
+    }
+
+    .container-b {
+        padding: 80px 0;
+    
+    }
+
+    .c-icon {
+        width:30px;
+        height:30px;
+    }
+    
+    .arrow {
+        width:28px;
+        height:28px;
+    }
+
+    .c-span {
+        gap: 25px;
+    }
+    
+    .container-a h2{
+        font-size: 1.8rem;
+    }
+
+    .c-span span {
+        gap: 15px;
+        font-size:1.4rem;
+    }
+
+    .container-b h2 {
+        font-size: 1.6rem;
+    }
+
+}
+
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .contact-c {
+        padding: 100px 100px 0 100px;
+
+    }
+
+    .btn-cc {
+        gap:3px;
+        padding: 8px 12px;
+        font-size: 1.2rem;       
+    
+    }
+    
+    .container-a h2{
+        font-size: 2.4rem;
+    }
+
+    .container-b {
+        padding: 80px 0;
+    
+    }
+
+    .c-icon {
+        width:30px;
+        height:30px;
+    }
+    
+    .arrow {
+        width:28px;
+        height:28px;
+    }
+
+    .c-span {
+        gap: 25px;
+    }
+    
+    .container-a h2{
+        font-size: 1.8rem;
+    }
+
+    .c-span span {
+        gap: 15px;
+        font-size:1.4rem;
+    }
+
+    .container-b h2 {
+        font-size: 1.6rem;
+    }
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .contact-c {
+        padding: 100px 100px 0 100px;
+
+    }
+
+    .btn-cc {
+        gap:3px;
+        padding: 8px 12px;
+        font-size: 1.2rem;       
+    
+    }
+    
+    .container-a h2{
+        font-size: 2.4rem;
+    }
+
+    .container-b {
+        padding: 80px 0;
+    
+    }
+
+    .c-icon {
+        width:30px;
+        height:30px;
+    }
+    
+    .arrow {
+        width:28px;
+        height:28px;
+    }
+
+    .c-span {
+        gap: 25px;
+    }
+    
+    .container-a h2{
+        font-size: 1.8rem;
+    }
+
+    .c-span span {
+        gap: 15px;
+        font-size:1.4rem;
+    }
+
+    .container-b h2 {
+        font-size: 1.6rem;
+    }
+
+
+}

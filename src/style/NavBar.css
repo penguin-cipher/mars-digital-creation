@@ -72,7 +72,7 @@
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
-    padding-top: 30vh;
+    padding-top: 10vh;
   }
 }
 @media screen and (min-width: 960px) {
@@ -81,11 +81,11 @@
     align-items: center;
   }
 }
-.header__nav-item {
+.nav-item {
   width: max-content;
 }
 @media screen and (max-width: 559px) {
-  .header__nav-item {
+  .nav-item {
     display: block;
     margin: 0 auto;
     margin-bottom: 32px;
@@ -93,7 +93,7 @@
   }
 }
 @media screen and (min-width: 560px) and (max-width: 959px) {
-  .header__nav-item {
+  .nav-item {
     display: block;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -101,13 +101,13 @@
   }
 }
 @media screen and (min-width: 960px) {
-  .header__nav-item {
+  .nav-item {
     display: inline-block;
     margin-right: 24px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .header__nav-item {
+  .nav-item {
     margin-right: 40px;
   }
 }

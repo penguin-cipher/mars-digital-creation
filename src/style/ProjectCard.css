@@ -1,3 +1,4 @@
+@media screen {  
 .project-c {
     gap: 30px;
     display: flex;
@@ -45,3 +46,22 @@
     visibility: visible;
 
 } 
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){ 
+
+    .p-content {
+    margin-bottom: 30px;
+    }
+    
+    .p-txt h3 {
+       font-size: 1.4rem;
+    }
+
+    .p-txt p {
+        font-size: 1.3rem;
+    }
+
+}
