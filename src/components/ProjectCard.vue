@@ -11,12 +11,14 @@
         <img src="../assets/design.jpg" class="p-img" />
         <div class="p-txt">
           <h3>Projects</h3>
+          <p>Graphic design</p>
         </div>
       </div>
       <div class="p-content">
         <img src="../assets/design.jpg" class="p-img" />
         <div class="p-txt">
           <h3>Projects</h3>
+          <p>Graphic design</p>
         </div>
       </div>
     </div>
@@ -25,18 +27,21 @@
         <img src="../assets/design.jpg" class="p-img" />
         <div class="p-txt">
           <h3>Projects</h3>
+          <p>Graphic design</p>
         </div>
       </div>
       <div class="p-content">
         <img src="../assets/design.jpg" class="p-img" />
         <div class="p-txt">
           <h3>Projects</h3>
+          <p>Graphic design</p>
         </div>
       </div>
       <div class="p-content">
         <img src="../assets/design.jpg" class="p-img" />
         <div class="p-txt">
           <h3>Projects</h3>
+          <p>Graphic design</p>
         </div>
       </div>
     </div>
