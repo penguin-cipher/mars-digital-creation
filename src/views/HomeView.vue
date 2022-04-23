@@ -49,7 +49,6 @@ import Client from "../components/ClientComponent.vue";
 import ProjectCard from "../components/ProjectCard.vue";
 import Comment from "../components/CommentComponent.vue";
 export default {
-  
   components: {
     Nav,
     Done,
