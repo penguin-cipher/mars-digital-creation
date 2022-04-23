@@ -1,32 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;400&display=swap');
-* {
+@media screen {
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:ital,wght@0,100;0,500;1,300&display=swap');
 
-    /* color-scheme */  
-    --bg-color:#FFFFFF;
-    --fade-color:#bac4d4;
-    --footer-color:#14151A;
-    --primary-color:#ff6600;
-    --secondary-color:#1BA1DE;
-    /* fonts */
-    --font:'Source Serif Pro', serif;
+    * {
     
-
-}
-
-html {
-    background-color:transparent;
-    -webkit-background-color:transparent;
-}
-
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+        /* color-scheme */  
+        --bg-color:#FFFFFF;
+        --fade-color:#bac4d4;
+        --footer-color:#14151A;
+        --primary-color:#ff6600;
+        --secondary-color:#1BA1DE;
+        /* fonts */
+        --head-font:'Open Sans', sans-serif;
+        --body-font: 'Roboto', sans-serif;
+        /* font size */
+        --body-mobile:1rem;
+        --body-desktop:1.5rem;
+        --head-mobile:2rem;
+        --head-desktop:4rem;
+    
+    }
+    
+    html {
+        background-color:transparent;
+        -webkit-background-color:transparent;
+    }
+    
+    
 body {
     
     font-weight: 100;
-    font-weight: 400;
-    font-family:var(--font);
+    font-size:var(--body-mobile);
+    font-family:var(--head-font);
     color: var(--footer-color);
     text-rendering: optimizeSpeed;
     font-feature-settings: "kern";
@@ -56,36 +65,30 @@ a {
     color: var(--comment-color);
 }
 
+
+p {
+    font-size: 1rem;
+   }
+   
+   h1 {
+    font-size: 1.2rem;
+   }
+   
+   h2 ,span  {
+    font-size: 1rem; 
+   }
+   
+   h3 {
+    font-size: 1rem; 
+   }
+
 h1,h2,h3 {
-    font-family: var(--font);
+    font-family: var(--head-font);
     font-weight: 400;
 
 }
 
-h1, h2 {
-    font-size:1.4rem;
 }
-
-h3 {
-    font-size:1rem;
-}
-
-
-
-@media screen {}
     
-/* ipad/tablet */
-@media only screen and (min-width:48.0em){ 
-}
 
-/* ipad pro screens & laptop */
-@media only screen and (min-width:49.0em) and (max-width:64em) {
-}
 
-/* large screens : Desktop and 4k screens */
-@media only screen and (min-width:64.063em) and (max-width:90.0em) {
-}
-
-/* 5k screens and above */
-@media only screen and (min-width:91.0em) {
-}

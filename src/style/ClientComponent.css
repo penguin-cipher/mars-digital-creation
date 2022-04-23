@@ -9,7 +9,6 @@
         gap: 15px;
         display: flex;
         flex-wrap: wrap;
-        font-size: 1rem;
         font-weight: 500;
         list-style: none;
         flex-direction: row;
@@ -20,12 +19,5 @@
     
 }
 
-/* ipad/tablet */
-@media only screen and (min-width:48.0em){ 
 
-    .client-list ul {
-        font-size: 1.3rem;
-    }
-
-}
 
