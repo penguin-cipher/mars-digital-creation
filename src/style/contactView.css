@@ -41,6 +41,12 @@
         color: var(--primary-color);
         background-color:var(--bg-color);
     }
+
+
+    .btn-cc:hover .arrow {
+        color: var(--footer-color);
+
+    }
     
     
     .c-icon {
@@ -50,11 +56,12 @@
     }
     
     .arrow {
-        color: var(--footer-color);
+        color: var(--bg-color);
         width:20px;
         height:20px;
     }
 
+    
     
     .line {
         display: block;

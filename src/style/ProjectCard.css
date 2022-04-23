@@ -6,6 +6,7 @@
     padding: 50px 0;
     flex-direction: column;
 
+
 }
 
 .p-content {
@@ -64,4 +65,77 @@
         font-size: 1.3rem;
     }
 
+}
+
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .project-c {
+        gap: 40px;
+        padding: 100px 0;
+        flex-direction: row;
+    
+    }
+
+    .random1 {
+        height: 500px;
+        width: 400px;
+    
+    }
+
+    .random2 {
+        height: 800px;
+        width: 400px;
+    
+    }
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .project-c {
+        gap: 60px;
+        padding: 100px 0;
+        flex-direction: row;
+    
+    }
+
+    .random1 {
+        height: 600px;
+        width: 500px;
+    
+    }
+
+    .random2 {
+        height: 900px;
+        width: 500px;
+    
+    }
+
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    
+    .project-c {
+        gap: 60px;
+        padding: 100px 0;
+        flex-direction: row;
+    
+    }
+
+    .random1 {
+        height: 600px;
+        width: 500px;
+    
+    }
+
+    .random2 {
+        height: 900px;
+        width: 500px;
+    
+    }
 }

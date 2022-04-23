@@ -2,21 +2,21 @@
   <div class="project-c">
     <div class="p-right">
       <div class="p-content">
-        <img src="../assets/design.jpg" class="p-img" />
+        <img src="../assets/design.jpg" class="p-img random1" />
         <div class="p-txt">
           <h3>Projects</h3>
           <p>Graphic design</p>
         </div>
       </div>
       <div class="p-content">
-        <img src="../assets/design.jpg" class="p-img" />
+        <img src="../assets/design.jpg" class="p-img random2" />
         <div class="p-txt">
           <h3>Projects</h3>
           <p>Graphic design</p>
         </div>
       </div>
       <div class="p-content">
-        <img src="../assets/design.jpg" class="p-img" />
+        <img src="../assets/design.jpg" class="p-img random1" />
         <div class="p-txt">
           <h3>Projects</h3>
           <p>Graphic design</p>
@@ -25,21 +25,21 @@
     </div>
     <div class="p-left">
       <div class="p-content">
-        <img src="../assets/design.jpg" class="p-img" />
+        <img src="../assets/design.jpg" class="p-img random2" />
         <div class="p-txt">
           <h3>Projects</h3>
           <p>Graphic design</p>
         </div>
       </div>
       <div class="p-content">
-        <img src="../assets/design.jpg" class="p-img" />
+        <img src="../assets/design.jpg" class="p-img random1" />
         <div class="p-txt">
           <h3>Projects</h3>
           <p>Graphic design</p>
         </div>
       </div>
       <div class="p-content">
-        <img src="../assets/design.jpg" class="p-img" />
+        <img src="../assets/design.jpg" class="p-img random2" />
         <div class="p-txt">
           <h3>Projects</h3>
           <p>Graphic design</p>

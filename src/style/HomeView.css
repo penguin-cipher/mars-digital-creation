@@ -1,8 +1,9 @@
 @media screen {
 .home {
     display:flex;
-    flex-direction:column;
+    row-gap: 10px;
     margin: 0 10px;
+    flex-direction:column;
 }
 
 .home-view {
@@ -10,11 +11,11 @@
 }
 
 .home-a {
+    height: 40%;
     display: flex;
     row-gap: 30px;
-    height: 40%;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -51,12 +52,19 @@
 
 
 .home-b {
-    height:50%;    
+    height:50%;
+    background-size: cover;
+    background-position: center;    
+    border-radius:0 10px 0 10px;
+    background-repeat: no-repeat;
+    background-image: url("../assets/mars.jpg");
+ 
 }
 
 .home-mid-img {
     height:100%;
     width: 100%;
+    opacity: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,6 +75,8 @@
 }
 
 .mid-img {
+    object-fit: cover;
+    object-position: ;
     border-radius:10px 0 10px 0;
     height:70%;
     width:70%;
@@ -101,6 +111,10 @@
 /* ipad/tablet */
 @media only screen and (min-width:48.0em){ 
 
+    .home {
+        row-gap: 50px;
+    }
+
     .home-a h3 {
         text-align: center;
         font-size:1.5rem;
@@ -125,4 +139,108 @@
     
 
 }
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    .home {
+        row-gap: 50px;
+    }
+
+
+    .home {
+        margin: 0 ;
+    }
+
+    .home-view {
+        height:50vh;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .home-a , .home-b {
+        flex:50%;
+    }
+
+    .home-a {
+        padding: 0 10px;
+        justify-content: center;
+    }
+
+    .home-a h3 {
+        text-align: start;
+    }
+
+    .home-b {
+        height:100%;
+   
+     
+    }
+
+    .home-mid-img {
+        border-radius:0px;
+        opacity: 0%;
+
+    }
+    
+    .mid-img {
+
+        border-radius:0;
+        height:50%;
+      
+    }
+    
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    
+    .home {
+        margin: 0 ;
+        row-gap: 100px;
+    }
+
+    .home-view {
+        height:70vh;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+
+    }
+
+    .home-a , .home-b {
+        flex:50%;
+    }
+
+    .home-a {
+        padding: 0 10px;
+        justify-content: center;
+    }
+
+    .home-a h3 {
+        text-align: start;
+    }
+
+    .home-b {
+        height:100%;
+     
+    }
+
+    .home-mid-img {
+        border-radius:0px;
+        opacity: 0%;
+    }
+    
+    .mid-img {
+        border-radius:0;
+        height:70%;
+ 
+      
+    }
+
+}
+
 

@@ -67,3 +67,43 @@
 
 }
     
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+    
+.s-c-right, .s-c-left {
+    width: 100%;
+    gap: 40px;
+    padding-top: 100px;
+
+}
+
+.service-card {
+        width: 300px;
+        display: flex;
+        height: 250px;
+}
+
+}
+
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+    .s-c-right, .s-c-left {
+        gap: 40px;
+        width: 100%;
+        padding-top: 100px;
+    
+    }
+    
+    .service-card {
+        display: flex;
+        height: 250px;
+        width: 300px; 
+    }
+    
+
+}
+
+

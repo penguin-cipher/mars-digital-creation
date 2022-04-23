@@ -10,7 +10,7 @@
       </div>
       <div class="home-b">
         <span class="home-mid-img">
-          <img src="../assets/design.jpg" alt="middle img" class="mid-img" />
+          <img src="../assets/mars.jpg" alt="middle img" class="mid-img" />
         </span>
       </div>
     </div>
@@ -31,6 +31,9 @@
       <div>
         <Done />
       </div>
+        <div>
+        <Comment />
+      </div>
       <div>
         <Contact />
       </div>
@@ -44,14 +47,16 @@ import Contact from "../views/ContactView.vue";
 import Done from "../components/projectsDone.vue";
 import Client from "../components/ClientComponent.vue";
 import ProjectCard from "../components/ProjectCard.vue";
+import Comment from "../components/CommentComponent.vue";
 
 export default {
   components: {
     Nav,
     Done,
     Client,
-    Contact,
     Service,
+    Contact,
+    Comment,
     ProjectCard,
   },
 };
