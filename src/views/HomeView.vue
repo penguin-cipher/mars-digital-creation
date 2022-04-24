@@ -3,10 +3,10 @@
     <Nav ref="nav" />
     <div class="home-view" ref="homeView">
       <div class="home-a" ref="homeA">
-        <h3>
+        <h1>
           Mars digital creation is a <span>design</span> and large format
           printing company based in <span>Nairobi,kenya</span>
-        </h3>
+        </h1>
       </div>
       <div class="home-b" ref="homeB">
         <span class="home-mid-img">

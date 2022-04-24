@@ -62,7 +62,11 @@
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
 
-    
+.service-c {
+
+    padding: 0 20px;
+}
+
 .s-c-right, .s-c-left {
     width: 100%;
     gap: 40px;
@@ -96,6 +100,23 @@
     }
     
 
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+    .s-c-right, .s-c-left {
+        gap: 40px;
+        width: 100%;
+        padding-top: 100px;
+    
+    }
+    
+    .service-card {
+        display: flex;
+        height: 350px;
+        width: 400px; 
+    }
 }
 
 

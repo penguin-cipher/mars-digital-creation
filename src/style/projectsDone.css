@@ -22,7 +22,6 @@
 
 
 .dp-btn {
-
     position:relative;
     top: 160px;
 
@@ -53,6 +52,7 @@
 }
 
 .p-a, .p-b {
+    font-size:1rem;
     flex-direction: column;
     
 }
@@ -61,6 +61,13 @@
 .dp-work span {
     font-weight:bold; 
 }
+
+.p-a span , .p-b span {
+ 
+    font-size:1.5rem;
+
+}
+
 
 }
 
@@ -112,6 +119,11 @@
 
 }
 
+.dp-txt h3 {
+
+    font-size:1.5rem;
+}
+
 .dp-btn {
 
     position:relative;
@@ -119,6 +131,9 @@
 
 }
 
+.btn-pd {
+    font-size:1.4rem;
+}
 
 
 .dp-work {
@@ -127,7 +142,68 @@
     align-items: flex-start;
 }
 
+.p-a span , .p-b span {
+ 
+    font-size:2.4rem;
+
 }
+
+.p-a , .p-b {
+  
+    font-size:1.2rem;
+}
+
+}
+
+/* large screens : Desktop and 4k screens */
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+
+            
+.done-p {
+        padding: 180px 20px;
+        padding-bottom:280px;
+        flex-direction: row;
+    
+}
+    
+.dp-txt h3 {
+    
+        font-size:1.5rem;
+}
+    
+.dp-btn {
+    
+        position:relative;
+        top: 30px;
+    
+}
+    
+.btn-pd {
+        font-size:1.4rem;
+}
+    
+    
+.dp-work {
+        display: flex;
+        padding-left: 200px;
+        align-items: flex-start;
+}
+
+.p-a span , .p-b span {
+ 
+    font-size:2.4rem;
+
+}
+
+.p-a , .p-b {
+  
+    font-size:1.2rem;
+}
+
+}
+
+
+
 
 
 /* large screens : Desktop and 4k screens */
@@ -139,6 +215,12 @@
         flex-direction: row;
     
     }
+
+
+    .dp-txt h3 {
+
+    font-size:1.5rem;
+    }
     
     
     .dp-btn {
@@ -146,11 +228,75 @@
         top: 30px;
     
     }
+
+    .btn-pd {
+        font-size:1.4rem;
+    }
+    
     
     .dp-work {
         display: flex;
         padding-left: 210px;
         align-items: flex-start;
+    }
+
+    .p-a span , .p-b span {
+ 
+        font-size:2.4rem;
+    
+    }
+    
+    .p-a , .p-b {
+      
+        font-size:1.2rem;
+    }
+    
+}
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+
+
+    .done-p {
+        padding: 150px 250px;
+        padding-bottom: 250px;
+        flex-direction: row;
+    
+    }
+
+
+    .dp-txt h3 {
+
+    font-size:1.8rem;
+    }
+    
+    
+    .dp-btn {
+        position:relative;
+        top: 50px;
+    
+    }
+
+    .btn-pd {
+        font-size:1.4rem;
+    }
+    
+    
+    .dp-work {
+        display: flex;
+        padding-left: 210px;
+        align-items: flex-start;
+    }
+
+    .p-a span , .p-b span {
+ 
+        font-size:2.4rem;
+    
+    }
+    
+    .p-a , .p-b {
+      
+        font-size:1.2rem;
     }
 
 }

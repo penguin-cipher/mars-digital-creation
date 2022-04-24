@@ -4,10 +4,9 @@
         display: flex;
         margin-top: 50px;
         padding: 10px 20px;
-        text-align: center;
-        
+        color: var(--bg-color);
         flex-direction: column;
-        background-color:var(--primary-color);
+        background-color:var(--footer-color);
     }
     
     .container-a {
@@ -15,7 +14,13 @@
         padding: 10px 0;
         flex-direction: column;
     
-    }   
+    }
+    
+    .container-a h2 {
+        text-align: center;
+        font-size:1.5rem;
+    }
+
 
     
     .btn-cc {
@@ -68,13 +73,19 @@
         padding: 0;
     }
 
+
+    .c-a h2 , .c-b h2 {
+
+        font-size:1.4rem;
+        margin:4px;
+    }
+
     
     .container-b {
         display: flex;
         flex-direction: column;
     
     }
-    
     
     .c-span {
         display: flex;
@@ -163,11 +174,21 @@
 
     .btn-cc {
         gap:3px;
+        font-size:1rem;
         padding: 8px 12px;
                
     
     }
     
+    .container-a h2 {
+        font-size:1.5rem;
+    }
+
+    .c-a h2 , .c-b h2 {
+
+        font-size:1.2rem;
+    }
+
 
     .container-b {
         padding: 80px 0;
@@ -205,6 +226,7 @@
 
     .btn-cc {
         gap:3px;
+        font-size:1rem;
         padding: 8px 12px;
                
     
@@ -212,8 +234,18 @@
     
     .container-b {
         padding: 80px 0;
-    
+
     }
+
+    .container-a h2 {
+        font-size:2rem;
+    }
+
+    .c-a h2 , .c-b h2 {
+
+        font-size:1.4rem;
+    }
+
 
     .c-icon {
         width:30px;
@@ -242,15 +274,25 @@
 @media only screen and (min-width:91.0em) {
 
     .contact-c {
-        padding: 100px 100px 0 100px;
+        padding: 200px 200px 0 200px;
 
     }
 
     .btn-cc {
         gap:3px;
-        padding: 8px 12px;
+        font-size:1.4rem;
+        padding: 10px 18px;
                
     
+    }
+
+    .container-a h2 {
+        font-size:2.5rem;
+    }
+
+    .c-a h2 , .c-b h2 {
+
+        font-size:1.5rem;
     }
 
 
@@ -265,8 +307,8 @@
     }
     
     .arrow {
-        width:28px;
-        height:28px;
+        width:30px;
+        height:30px;
     }
 
     .c-span {

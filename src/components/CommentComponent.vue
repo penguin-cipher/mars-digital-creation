@@ -21,12 +21,13 @@
             <h4>Manager chris</h4>
             <p>kiafrica ltd</p>
           </div>
-      </div>
         </div>
+      </div>
       <div class="c-card">
         <div class="c-txt">
           <p>
-            You guys even provide delivery services and the best customer experience, i honestly love you
+            You guys even provide delivery services and the best customer
+            experience, i honestly love you
           </p>
         </div>
         <div class="c-profile">
@@ -40,7 +41,8 @@
       <div class="c-card">
         <div class="c-txt">
           <p>
-            i honestly like this company, looking forward to always working with you guys
+            i honestly like this company, looking forward to always working with
+            you guys
           </p>
         </div>
         <div class="c-profile">

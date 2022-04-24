@@ -20,4 +20,11 @@
 }
 
 
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
 
+    .client {
+        padding: 0 20px;
+        padding-bottom: 100px;
+    }
+}
